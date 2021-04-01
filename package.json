@@ -1,0 +1,23 @@
+{
+  "name": "fizzbuzz_testing",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/elenapiaggio/fizzbuzz-testing.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/elenapiaggio/fizzbuzz-testing/issues"
+  },
+  "homepage": "https://github.com/elenapiaggio/fizzbuzz-testing#readme",
+  "devDependencies": {
+    "jest": "^26.6.3"
+  }
+}
