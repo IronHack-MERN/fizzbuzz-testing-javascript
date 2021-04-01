@@ -2,6 +2,9 @@ function fizzbuzz(num) {
 
   const divisible = (divisor, num) => num%divisor === 0;
 
+  if(typeof(num) != 'number'){
+    return "Error: the argumement must be a number";
+  }
   if(num === 0){
     return 0;
   }
