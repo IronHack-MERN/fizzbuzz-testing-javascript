@@ -1,6 +1,12 @@
 const fizzbuzz = require("./fizzbuzz");
 
 describe("fizzbuzz", () => {
+  test("should print error message if the argument is not a number", () => {
+    const expected = "Error: the argumement must be a number";
+    const result = fizzbuzz("1");
+    expect(expected).toBe(result);
+  });
+
   test("should print 0 when it receives 0", () => {
     const expected = 0;
     const result = fizzbuzz(0);
